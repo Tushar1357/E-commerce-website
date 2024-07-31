@@ -1,0 +1,148 @@
+.nav{
+    cursor: pointer;
+}
+
+
+#cart-icon a{
+    text-decoration: none;
+    color: white;
+}
+
+#login a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #ef6623;
+    color: white;
+    padding: 7px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+
+.slider{
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+}
+
+.slider-image{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.slider-image img{
+    border-radius: 5px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.simple-card{
+    border: 2px solid ;
+    box-shadow: 7px 7px ;
+    margin: auto;
+    width: 140px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.simple-card a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-text{
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-cards{
+    display: flex;
+    overflow-x: auto;
+}
+
+
+.section-card{
+    display: flex;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    flex-direction: column;
+    width: 200px;
+    border: 2px solid rgb(91, 80, 80);
+    border-radius: 10px;
+}
+
+.section-card img{
+    border: 2px solid rgb(134, 120, 120);
+    border-radius: 10px;
+
+}
+
+.section-card a{
+    text-decoration: none;
+    color: black;
+}
+.section-card button{
+    width: 120px;
+    border-radius: 5px;
+}
+.product-name{
+    text-align: center;
+}
+
+
+.product-section{
+    margin-top: 55px;
+}
+
+#store-closed{
+    z-index: 2;
+    background-color: white;
+    position: fixed;
+    top: 150px;
+    height: auto;
+    width: 50%;
+    left: 25%;
+    right: auto;
+    padding: 10px;
+    display: none;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+    
+  }
+
+
+#spinner{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    display: none;
+}
+
